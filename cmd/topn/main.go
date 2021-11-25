@@ -57,9 +57,9 @@ func main() {
 					fmt.Println("can not find process with keyword '" + keyword + "'")
 					return
 				}
-
-				cmdArgs = append(cmdArgs, args[1:]...)
 			}
+
+			cmdArgs = append(cmdArgs, args[1:]...)
 		} else {
 			cmdArgs = append(cmdArgs, args...)
 		}
